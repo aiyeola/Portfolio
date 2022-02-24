@@ -18,3 +18,39 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .h1 {
+    @apply font-[800] text-[72px] leading-[80px];
+  }
+  .h2 {
+    @apply font-[800] text-[56px] leading-[64px];
+  }
+  .h3 {
+    @apply font-[800] text-[40px] leading-[48px];
+  }
+  .h4 {
+    @apply font-[800] text-[24px] leading-[32px];
+  }
+  .h5 {
+    @apply font-normal text-[16px] leading-[32px] text-accent;
+  }
+  .label {
+    @apply font-bold text-[12px] leading-[12px] uppercase;
+  }
+  .txt_big {
+    @apply text-[20px] leading-[32px];
+  }
+  .txt {
+    @apply text-[16px] leading-[32px];
+  }
+  .txt-dark-gray {
+    @apply text-dark-gray;
+  }
+  .txt-light-gray {
+    @apply text-light-gray;
+  }
+  .txt-small {
+    @apply text-dark-gray text-[14px] leading-[24px];
+  }
+}
