@@ -1,16 +1,16 @@
-import { HomeHero } from "../components";
-import CustomHead from "../Layout/CustomHead";
-import Layout from "../Layout/Layout";
+import Head from "next/head";
+import { HomeHero, Layout, ServicesSection } from "../components";
+import Navigation from "../components/Layout/Navigation";
 
 export default function Home() {
   return (
     <Layout className="">
-      <CustomHead>
+      <Head>
         <title>Create Next App</title>
-      </CustomHead>
-      <div className="items-center justify-center h-screen">
-        {/* <ImageCard />  */}
+      </Head>
+      <div>
         <HomeHero />
+        <ServicesSection />
       </div>
     </Layout>
   );

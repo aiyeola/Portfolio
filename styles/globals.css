@@ -30,7 +30,7 @@ a {
     @apply font-[800] text-[40px] leading-[48px];
   }
   .h4 {
-    @apply font-[800] text-[24px] leading-[32px];
+    @apply font-[800] text-lg md:text-xl lg:text-[24px] leading-[32px];
   }
   .h5 {
     @apply font-normal text-[16px] leading-[32px] text-accent;

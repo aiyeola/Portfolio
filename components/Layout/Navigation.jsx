@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "../components";
+import { Button } from "..";
 
-const Navbar = () => {
+const Navigation = () => {
   return (
     <div className="py-4 flex w-full lg:px-[135px] justify-between items-center bg-dark-bg">
       <div className="text-white text-3xl font-bold ">Bestman</div>
@@ -19,4 +19,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;

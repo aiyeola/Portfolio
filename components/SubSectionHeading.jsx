@@ -2,7 +2,7 @@ import React from "react";
 
 const SubSectionHeading = ({ title, subtitle, isWhite }) => {
   return (
-    <div className="bg-dark-gray">
+    <div className="">
       <h3 className="text-accent uppercase text-base leading-[32px] tracking-[3px] ">
         {subtitle}
       </h3>
