@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const IconCircle = ({ variant, icon, size, link }) => {
+const IconCircle = ({ variant='', icon='/images/icons/service.png', size='', link='' }) => {
   const variantStyle =
     variant === "dark"
       ? "bg-primary"

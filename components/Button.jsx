@@ -1,6 +1,7 @@
+import Link from "next/link";
 import React from "react";
 
-const Button = ({ children, variant, link }) => {
+const Button = ({ children, variant ="light", link='' }) => {
   const getStyles = () => {
     let styles;
     if (variant === "dark") {
@@ -15,14 +16,21 @@ const Button = ({ children, variant, link }) => {
   };
 
   const styles = getStyles();
-
+if(link)
   return (
     <button
       className={`${styles} px-10 md:px-12 py-3 md:py-4 rounded-lg text-white font-semibold md:font-black uppercase text-sm hover:scale-95 duration-300`}
     >
       {children}
     </button>
-  );
+  )
+ return(
+   <button
+      className={`${styles} px-10 md:px-12 py-3 md:py-4 rounded-lg text-white font-semibold md:font-black uppercase text-sm hover:scale-95 duration-300`}
+    >
+      <Link>{children}</Link>
+    </button>)
+  ;
 };
 
 export default Button;

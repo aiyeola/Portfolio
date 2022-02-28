@@ -1,6 +1,6 @@
 import React from "react";
 
-const SubSectionHeading = ({ title, subtitle, isWhite }) => {
+const SubSectionHeading = ({ title='Title', subtitle='Sub title', isWhite=true }) => {
   return (
     <div className="">
       <h3 className="text-accent uppercase text-base leading-[32px] tracking-[3px] ">

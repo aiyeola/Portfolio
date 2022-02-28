@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageCard = ({img}) => {
+const ImageCard = ({img = '/images/product.jpg'}) => {
   return (
     <div className="h-full hover:scale-105 rounded-md relative duration-300">
       <div className="absolute bottom-5 md:bottom-[48px] left-5 md:left-[48px] z-10">

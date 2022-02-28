@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import { HomeHero, Layout, ProjectSection, ServicesSection } from "../components";
 
