@@ -7,6 +7,7 @@ import HomeHero from "./HomeHero";
 import TransparentCard from "./TransparentCard";
 import ServicesSection from "./ServicesSection";
 import Layout from "./Layout/Layout";
+import ProjectSection from "./ProjectSection";
 
 export {
   Button,
@@ -16,6 +17,7 @@ export {
   ImageCard,
   HomeHero,
   TransparentCard,
-  ServicesSection,
-  Layout,
+    ServicesSection,
+    Layout,
+  ProjectSection
 };

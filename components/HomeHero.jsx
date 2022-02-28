@@ -1,5 +1,6 @@
 import React from "react";
 import { SubSectionHeading } from ".";
+import Button from "./Button";
 
 const HomeHero = () => {
   return (
@@ -10,6 +11,10 @@ const HomeHero = () => {
           subtitle="Prophet Bestman"
           isWhite
         />
+        <p className="text-light-gray py-6">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum obcaecati cumque debitis?
+        </p>
+        <Button>Meet Me</Button>
       </div>
       <div className="col-span-1">
         <img src="images/hero2.png" alt="" className="w-full h-full" />

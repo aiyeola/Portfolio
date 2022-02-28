@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { HomeHero, Layout, ServicesSection } from "../components";
-import Navigation from "../components/Layout/Navigation";
+import { HomeHero, Layout, ProjectSection, ServicesSection } from "../components";
 
 export default function Home() {
   return (
@@ -11,6 +10,7 @@ export default function Home() {
       <div>
         <HomeHero />
         <ServicesSection />
+        <ProjectSection />
       </div>
     </Layout>
   );
