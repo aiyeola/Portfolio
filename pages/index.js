@@ -1,12 +1,17 @@
 import React from "react";
 import Head from "next/head";
-import { HomeHero, Layout, ProjectSection, ServicesSection } from "../components";
+import {
+  HomeHero,
+  Layout,
+  ProjectSection,
+  ServicesSection,
+} from "../components";
 
 export default function Home() {
   return (
     <Layout className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Prophet Bestman | Home</title>
       </Head>
       <div>
         <HomeHero />
