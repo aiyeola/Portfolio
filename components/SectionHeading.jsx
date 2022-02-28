@@ -1,6 +1,10 @@
 import React from "react";
 
-const SectionHeading = ({ title='Title', subtitle='Sub title', isWhite=true }) => {
+const SectionHeading = ({
+  title = "Title",
+  subtitle = "Sub title",
+  isWhite = false,
+}) => {
   return (
     <div className="text-center flex flex-col justify-center ">
       <h3 className="text-accent uppercase text-base leading-[32px] tracking-[3px] ">
