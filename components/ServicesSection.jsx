@@ -9,7 +9,7 @@ const ServicesSection = () => {
       <div className="grid grid-cols-2 pt-16 gap-6">
         <TransparentCard className="col-span-2 md:col-span-1">
           <div className="flex items-center col-span-2">
-            <IconCircle icon="images/icons/service.png" />{" "}
+            <IconCircle icon="/images/icons/service.png" />{" "}
             <h4 className="h4 ml-6 text-dark">API Integration</h4>
           </div>
           <p className="my-7 text-dark-gray">
@@ -19,13 +19,13 @@ const ServicesSection = () => {
           <IconCircle
             size="sm"
             variant="light"
-            icon="images/icons/plus.png"
+            icon="/images/icons/plus.png"
             link="#"
           />
         </TransparentCard>
         <TransparentCard className="col-span-2 md:col-span-1">
           <div className="flex items-center col-span-2">
-            <IconCircle icon="images/icons/service.png" />{" "}
+            <IconCircle icon="/images/icons/service.png" />{" "}
             <h4 className="h4 ml-6 text-dark">UI/UX Implementaion</h4>
           </div>
           <p className="my-7 text-dark-gray">
@@ -35,13 +35,13 @@ const ServicesSection = () => {
           <IconCircle
             size="sm"
             variant="light"
-            icon="images/icons/plus.png"
+            icon="/images/icons/plus.png"
             link="#"
           />
         </TransparentCard>
         <TransparentCard className="col-span-2 md:col-span-1">
           <div className="flex items-center col-span-2">
-            <IconCircle icon="images/icons/service.png" />{" "}
+            <IconCircle icon="/images/icons/service.png" />{" "}
             <h4 className="h4 ml-6 text-dark">Landing Pages</h4>
           </div>
           <p className="my-7 text-dark-gray">
@@ -51,13 +51,13 @@ const ServicesSection = () => {
           <IconCircle
             size="sm"
             variant="light"
-            icon="images/icons/plus.png"
+            icon="/images/icons/plus.png"
             link="#"
           />
         </TransparentCard>
         <TransparentCard className="col-span-2 md:col-span-1">
           <div className="flex items-center col-span-2">
-            <IconCircle icon="images/icons/service.png" />{" "}
+            <IconCircle icon="/images/icons/service.png" />{" "}
             <h4 className="h4 ml-6 text-dark">UI/UX Implementaion</h4>
           </div>
           <p className="my-7 text-dark-gray">
@@ -67,7 +67,7 @@ const ServicesSection = () => {
           <IconCircle
             size="sm"
             variant="light"
-            icon="images/icons/plus.png"
+            icon="/images/icons/plus.png"
             link="#"
           />
         </TransparentCard>

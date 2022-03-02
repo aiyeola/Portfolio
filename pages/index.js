@@ -5,6 +5,7 @@ import {
   Layout,
   ProjectSection,
   ServicesSection,
+  TopSkills,
 } from "../components";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <HomeHero />
         <ServicesSection />
         <ProjectSection />
+        <TopSkills />
       </div>
     </Layout>
   );

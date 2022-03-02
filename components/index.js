@@ -8,6 +8,8 @@ import TransparentCard from "./TransparentCard";
 import ServicesSection from "./ServicesSection";
 import Layout from "./Layout/Layout";
 import ProjectSection from "./ProjectSection";
+import TopSkills from "./TopSkils";
+import SkillCircle from "./SkillCircle";
 
 export {
   Button,
@@ -17,7 +19,9 @@ export {
   ImageCard,
   HomeHero,
   TransparentCard,
-    ServicesSection,
-    Layout,
-  ProjectSection
+  ServicesSection,
+  Layout,
+  ProjectSection,
+  TopSkills,
+  SkillCircle,
 };
