@@ -5,6 +5,7 @@ import {
   HomeHero,
   Layout,
   ProjectSection,
+  RecentBlogsSection,
   ServicesSection,
   TestimonialSection,
   TopSkills,
@@ -23,6 +24,7 @@ export default function Home() {
         <TopSkills />
         <CallToAction />
         <TestimonialSection />
+        <RecentBlogsSection />
       </div>
     </Layout>
   );

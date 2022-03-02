@@ -12,6 +12,7 @@ import TopSkills from "./TopSkils";
 import SkillCircle from "./SkillCircle";
 import CallToAction from "./CallToAction";
 import TestimonialSection from "./TestimonialSection";
+import RecentBlogsSection from "./RecentBlogsSection";
 
 export {
   Button,
@@ -28,4 +29,5 @@ export {
   SkillCircle,
   CallToAction,
   TestimonialSection,
+  RecentBlogsSection,
 };
