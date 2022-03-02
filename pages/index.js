@@ -24,7 +24,7 @@ export default function Home() {
         <TopSkills />
         <CallToAction />
         <TestimonialSection />
-        <RecentBlogsSection />
+        {/* <RecentBlogsSection /> */}
       </div>
     </Layout>
   );

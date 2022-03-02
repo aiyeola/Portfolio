@@ -6,6 +6,7 @@ const IconCircle = ({
   icon = "/images/icons/service.png",
   size = "",
   link = "",
+  children,
 }) => {
   const variantStyle =
     variant === "dark"
@@ -26,14 +27,14 @@ const IconCircle = ({
           <div
             className={`hover:scale-90 duration-200 flex justify-center items-center rounded-full ${variantStyle} ${sizeStyle}`}
           >
-            <img src={icon} alt="" />
+            {children ? children : <img src={icon} alt="" />}
           </div>
         </Link>
       ) : (
         <div
           className={` flex justify-center items-center rounded-full ${variantStyle} ${sizeStyle}`}
         >
-          <img src={icon} alt="" />
+          {children ? children : <img src={icon} alt="" />}
         </div>
       )}
     </div>
