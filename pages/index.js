@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import {
+  CallToAction,
   HomeHero,
   Layout,
   ProjectSection,
@@ -19,6 +20,7 @@ export default function Home() {
         <ServicesSection />
         <ProjectSection />
         <TopSkills />
+        <CallToAction />
       </div>
     </Layout>
   );

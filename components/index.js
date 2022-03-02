@@ -10,6 +10,7 @@ import Layout from "./Layout/Layout";
 import ProjectSection from "./ProjectSection";
 import TopSkills from "./TopSkils";
 import SkillCircle from "./SkillCircle";
+import CallToAction from "./CallToAction";
 
 export {
   Button,
@@ -24,4 +25,5 @@ export {
   ProjectSection,
   TopSkills,
   SkillCircle,
+  CallToAction,
 };

@@ -4,6 +4,7 @@ const SubSectionHeading = ({
   title = "Title",
   subtitle = "Sub title",
   isWhite = false,
+  size = "normal",
 }) => {
   return (
     <div className="">
@@ -13,7 +14,7 @@ const SubSectionHeading = ({
       <h2
         className={` text-[36px] md:text-[48px] capitalize font-bold leading-[64px] ${
           isWhite ? "text-white" : "text-dark"
-        }`}
+        } ${size === "small" ? "text-2xl md:text-3xl" : null}`}
       >
         {title}
       </h2>
