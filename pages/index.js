@@ -6,6 +6,7 @@ import {
   Layout,
   ProjectSection,
   ServicesSection,
+  TestimonialSection,
   TopSkills,
 } from "../components";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <ProjectSection />
         <TopSkills />
         <CallToAction />
+        <TestimonialSection />
       </div>
     </Layout>
   );

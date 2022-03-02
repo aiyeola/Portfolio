@@ -11,6 +11,7 @@ import ProjectSection from "./ProjectSection";
 import TopSkills from "./TopSkils";
 import SkillCircle from "./SkillCircle";
 import CallToAction from "./CallToAction";
+import TestimonialSection from "./TestimonialSection";
 
 export {
   Button,
@@ -26,4 +27,5 @@ export {
   TopSkills,
   SkillCircle,
   CallToAction,
+  TestimonialSection,
 };
