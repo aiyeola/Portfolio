@@ -18,6 +18,8 @@ import Input from "./Input";
 import Select from "./Select";
 import Form from "./Form";
 import TextArea from "./TextArea";
+import PageBanner from "./PageBanner";
+import AboutMeSummary from "./AboutMeSummary";
 
 export {
   Button,
@@ -40,4 +42,6 @@ export {
   Form,
   Select,
   TextArea,
+  PageBanner,
+  AboutMeSummary,
 };
