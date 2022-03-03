@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import {
   CallToAction,
+  ContactSection,
   HomeHero,
   Layout,
   ProjectSection,
@@ -24,7 +25,8 @@ export default function Home() {
         <TopSkills />
         <CallToAction />
         <TestimonialSection />
-        {/* <RecentBlogsSection /> */}
+        <RecentBlogsSection />
+        <ContactSection />
       </div>
     </Layout>
   );

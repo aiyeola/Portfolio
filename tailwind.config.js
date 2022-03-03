@@ -16,6 +16,7 @@ module.exports = {
         "light-bg": "#FDF0E9",
         "dark-gray": "rgba(57, 20, 0, 0.64)",
         "light-gray": "rgba(255, 255, 255, 0.64)",
+        border: "#F3D1BF",
       },
     },
   },

@@ -13,6 +13,11 @@ import SkillCircle from "./SkillCircle";
 import CallToAction from "./CallToAction";
 import TestimonialSection from "./TestimonialSection";
 import RecentBlogsSection from "./RecentBlogsSection";
+import ContactSection from "./ContactSection";
+import Input from "./Input";
+import Select from "./Select";
+import Form from "./Form";
+import TextArea from "./TextArea";
 
 export {
   Button,
@@ -30,4 +35,9 @@ export {
   CallToAction,
   TestimonialSection,
   RecentBlogsSection,
+  ContactSection,
+  Input,
+  Form,
+  Select,
+  TextArea,
 };
