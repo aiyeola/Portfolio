@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Button } from "..";
 
@@ -7,8 +8,12 @@ const Navigation = () => {
       <div className="text-white text-3xl font-bold ">Bestman</div>
       <div>
         <ul className="flex space-x-24 flex-1 text-gray-300">
-          <li>About</li>
-          <li>Portfolio</li>
+          <li>
+            <Link href="/about-me">About</Link>
+          </li>
+          <li>
+            <Link href="/portfolio">Portfolio</Link>
+          </li>
           <li>Blog</li>
         </ul>
       </div>

@@ -20,6 +20,9 @@ import Form from "./Form";
 import TextArea from "./TextArea";
 import PageBanner from "./PageBanner";
 import AboutMeSummary from "./AboutMeSummary";
+import Gallery from "./Gallery";
+import Padding from "./Padding";
+import InfoCard from "./InfoCard";
 
 export {
   Button,
@@ -44,4 +47,7 @@ export {
   TextArea,
   PageBanner,
   AboutMeSummary,
+  Gallery,
+  Padding,
+  InfoCard,
 };
