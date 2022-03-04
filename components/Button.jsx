@@ -16,7 +16,7 @@ const Button = ({ children, variant = "", link = "", className }) => {
   };
 
   const styles = getStyles();
-  if (link)
+  if (!link)
     return (
       <button
         className={`${styles} px-10 md:px-12 py-3 md:py-4 rounded-lg text-white font-semibold md:font-black uppercase text-sm hover:scale-95 duration-300 ${className}`}
@@ -25,11 +25,13 @@ const Button = ({ children, variant = "", link = "", className }) => {
       </button>
     );
   return (
-    <button
-      className={`${styles} px-10 md:px-12 py-3 md:py-4 rounded-lg text-white font-semibold md:font-black uppercase text-sm hover:scale-95 duration-300 ${className}`}
-    >
-      <Link href={link}>{children}</Link>
-    </button>
+    <Link href={link}>
+      <button
+        className={`${styles} px-10 md:px-12 py-3 md:py-4 rounded-lg text-white font-semibold md:font-black uppercase text-sm hover:scale-95 duration-300 ${className}`}
+      >
+        {children}
+      </button>
+    </Link>
   );
 };
 

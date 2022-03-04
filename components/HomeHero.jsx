@@ -16,7 +16,7 @@ const HomeHero = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
           obcaecati cumque debitis?
         </p>
-        <Button>Meet Me</Button>
+        <Button link="/about-me">Meet Me</Button>
       </div>
       <div className="col-span-1">
         <Image
