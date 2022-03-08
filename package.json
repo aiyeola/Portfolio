@@ -11,6 +11,7 @@
     "lint-commit": "pretty-quick --staged"
   },
   "dependencies": {
+    "@headlessui/react": "^1.5.0",
     "husky": "^7.0.4",
     "next": "12.1.0",
     "pretty-quick": "^3.1.3",
